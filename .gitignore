@@ -2,3 +2,5 @@ patent_cf
 counterfactual.out
 
 *.pyc
+
+.DS_Store
