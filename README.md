@@ -103,4 +103,7 @@ These can be plotted using the script
 python generateTSHistograms.py beforeTS.csv afterTS.csv
 ```
 
-Sample output coming
+Sample output:
+
+![After](figs/afterTS.png)
+![Before](figs/beforeTS.png)
