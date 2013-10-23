@@ -88,6 +88,15 @@ that will look something like the following
 ![After](figs/after.png)
 ![Before](figs/before.png)
 
+By default, the histogram will output how many "zero" entries there are, and filter
+them out of the resulting histogram. There are usually many more "zero" entries than
+"nonzero," so this helps to make the histogram easier to read. You can optionally
+include these "zero" entries by appending `False` as a 3rd argument to `generateHistograms.py`:
+
+```
+python generateHistograms.py before.csv after.csv False
+```
+
 ## Timeseries
 
 An additional output of `generateHistogramData.go` are `afterTS.csv` and `beforeTS.csv`,
