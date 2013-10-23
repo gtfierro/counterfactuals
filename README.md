@@ -13,7 +13,7 @@ WindowAfter = 01 Jan 2013
 FocalDate = 01 Jan 2010
 DistanceThreshold = .95
 DistanceMetric = Jaccard
-Patentcorpus = ../cleantech_data/raw_tags.csv
+Patentcorpus = raw_tags.csv
 ; DateLayout uses Go's canonical format time
 DateLayout = 02 Jan 2006
 ```
